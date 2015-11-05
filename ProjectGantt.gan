@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Design Project Gantt Chart" company="" webLink="" view-date="2015-11-03" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7.1" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Design Project Gantt Chart" company="" webLink="" view-date="2015-11-01" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7.1" locale="en_US">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="57" order="0"/>
         <field id="tpd4" name="Begin date" width="21" order="1"/>
         <field id="tpd5" name="End date" width="21" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="70" order="0"/>
-        <field id="1" name="Default role" width="29" order="1"/>
+        <field id="0" name="Name" width="56" order="0"/>
+        <field id="1" name="Default role" width="43" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -33,6 +33,22 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="0" name="ERD for OODb" meeting="false" start="2015-10-26" duration="5" complete="0" expand="true"/>
+        <task id="1" name="Gantt Chart" meeting="false" start="2015-11-02" duration="3" complete="0" expand="true"/>
+        <task id="2" name="Use Case Diagram" meeting="false" start="2015-11-04" duration="4" complete="0" expand="true"/>
+        <task id="3" name="Activity Diagram" meeting="false" start="2015-11-04" duration="4" complete="0" expand="true"/>
+        <task id="4" name="Class Diagram" meeting="false" start="2015-11-09" duration="5" complete="0" expand="true"/>
+        <task id="5" name="Sequence Diagram" meeting="false" start="2015-11-11" duration="4" complete="0" expand="true"/>
+        <task id="6" name="Present Design" meeting="false" start="2015-11-17" duration="11" complete="0" expand="true"/>
+        <task id="7" name="Pseudocode" meeting="false" start="2016-01-06" duration="13" complete="0" expand="true"/>
+        <task id="8" name="Wireframes" meeting="false" start="2016-01-12" duration="9" complete="0" expand="true"/>
+        <task id="9" name="Feedback Meeting #01" meeting="false" start="2016-01-25" duration="1" complete="0" expand="true"/>
+        <task id="10" name="Begin Coding" meeting="false" start="2016-02-01" duration="10" complete="0" expand="true"/>
+        <task id="11" name="Wireframes" meeting="false" start="2016-02-15" duration="3" complete="0" expand="true"/>
+        <task id="12" name="Feedback Meeting #02" meeting="false" start="2016-02-18" duration="1" complete="0" expand="true"/>
+        <task id="13" name="Continue Coding (Final)" meeting="false" start="2016-02-19" duration="7" complete="0" expand="true"/>
+        <task id="14" name="Testing (Alpha/Beta)" meeting="false" start="2016-03-01" duration="24" complete="0" expand="true"/>
+        <task id="15" name="Present Final Product" meeting="false" start="2016-04-05" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>

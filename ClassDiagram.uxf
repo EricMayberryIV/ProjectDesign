@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>30</x>
+      <y>180</y>
+      <w>160</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Instructor
+--
+- fName:string
+- lName:string
+- phNum:int(10)
+- roomNum:string
+- email:string
+- instNum:int(4)
+--
++ fNameSet():void
++ lNalmeSet():void
++ phSet():void
++ rmSet():void
++ emailSet():void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>460</x>
+      <y>140</y>
+      <w>180</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+- fName:string
+- lName:string
+- stID:int(9)
+- stClass:string
+- stMajor:string
+- stEmail:string
+- stPhone:int(10)
+--
++ fNameSet():void
++ lNameSet():void
++ idSet():void
++ classSet():void
++ SetstEmail():void
++ SetPhone():void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>30</y>
+      <w>150</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Availability
+--
+- day:string
+- time:string
+- instNum:int(4)
+--
++ setDay():void
++ setTime():void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>260</y>
+      <w>150</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Meeting
+--
+- Meetday:string
+- Meettime:string
+- instNum:int(4)
+- stID:int(9)
+--
++ setMeetDay():void
++ setMeetTime():void
++ setMeetLen():void
++ setstID():void
++ setinstNum():void
++ checkAvDay():void
++ checkAvTime():void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>160</x>
+      <y>70</y>
+      <w>120</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>100;30;30;170</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>160</x>
+      <y>210</y>
+      <w>120</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>100;120;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>380</x>
+      <y>180</y>
+      <w>100</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;160;80;30</additional_attributes>
+  </element>
+</diagram>
